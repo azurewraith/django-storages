@@ -21,7 +21,7 @@ import urllib
 import urlparse
 import xml.sax
 
-DEFAULT_HOST = 's3.amazonaws.com'
+DEFAULT_HOST = 'deis-store.tesseract.nvidia.com'
 PORTS_BY_SECURITY = { True: 443, False: 80 }
 METADATA_PREFIX = 'x-amz-meta-'
 AMAZON_HEADER_PREFIX = 'x-amz-'
